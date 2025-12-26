@@ -36,7 +36,6 @@ def match_denom(diam_mm: float, tol: float) -> Tuple[str, float]:
 
 
 def build_mask_a4(img_bgr: np.ndarray) -> np.ndarray:
-    """Assumes coins on a bright (white A4) background."""
     gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray, (7, 7), 0)
 
