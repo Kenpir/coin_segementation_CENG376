@@ -87,3 +87,13 @@ pip install -r requirements.txt
 python src/coin_counter.py --input data/example_image.jpg
 ```
 
+## Output
+Input Image:
+![sample](https://github.com/user-attachments/assets/acaef067-e210-435b-b7af-169c69b3cdbe)
+
+Output:
+Output image could not be added due to size limitations.
+
+
+
+
